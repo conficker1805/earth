@@ -1,6 +1,6 @@
 module SeoHelper
 	def initialize_meta_tag
-		set_meta_tags :site 					=> 'Project', 
+		set_meta_tags :site 					=> 'earth',
 									:title 					=> 'Homepage',
 									:keywords 			=> %w[keyword1\ and\ Keyword2 Keyword3],					# Recommended keywords tag length: up to 255 characters, 20 words
 									:description 		=> "All text about keywords, other keywords", 		# Recommended up to 160 characters
@@ -11,7 +11,7 @@ module SeoHelper
 									# :noindex 			=> true,
 									# :nofollow 		=> true,
 									:og => {  																												# Share your link easier on Facebook
-										:site_name 		=> "Project (Like :site attribute)",
+										:site_name 		=> "earth (Like :site attribute)",
 										:title 				=> "article/purpose this page",
 										:type 				=> "objec/photo/article/summary/etc.",
 										:image 				=> "link thumbnail image for review",
@@ -20,7 +20,7 @@ module SeoHelper
 									},
 
 									:twitter => {  																			# Share your link easier on twitter
-										:site  				=> "Project (Like :site attribute)",
+										:site  				=> "earth (Like :site attribute)",
 										:title 				=> "article/purpose this page",
 										:card  				=> "objec/photo/article/summary/etc.",
 										:description  => "Intro/short description",
